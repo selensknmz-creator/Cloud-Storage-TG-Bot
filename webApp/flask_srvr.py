@@ -7,4 +7,4 @@ def home():
     return jsonify({"message": "Flask server running!"})
 
 def run_flask():
-    app.run(host="0.0.0.0", port=7860, debug=False, use_reloader=False)
+    app.run(host="0.0.0.0", port=8501, debug=False, use_reloader=False)
