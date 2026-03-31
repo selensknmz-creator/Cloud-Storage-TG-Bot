@@ -1,9 +1,0 @@
-{
-  "name": "Mobile Experience Preview",
-  "description": "A mobile-responsive web application designed with native-like UI patterns, animations, and transitions to simulate an Android and iOS experience.",
-  "requestFramePermissions": [
-    "camera",
-    "microphone",
-    "geolocation"
-  ]
-}
