@@ -1,11 +1,9 @@
 from config import config
-from webApp.flask_srvr import run_flask
-import threading
+from webApp.flask_srvr import run_thread
+from managers.thread_manager import start_thread
 import time
 
-t = threading.Thread(target=run_flask)
-t.daemon = True
-t.start()
+run_thread(run_flask, name="FlaskServer")
 
 print(config.id)
 
