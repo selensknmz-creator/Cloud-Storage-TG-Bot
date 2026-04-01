@@ -1,5 +1,5 @@
 from config import config
-from telegram_logger import setup_telegram_logger
+from managers.logger import setup_telegram_logger
 setup_telegram_logger()
 import logging
 from webApp.flask_srvr import run_thread
